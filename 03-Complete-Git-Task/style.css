@@ -1,0 +1,102 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+main {
+}
+
+/* ----------------------------TOP_NAV_START----------------------------------- */
+
+main > header {
+}
+
+main > header > div {
+  height: 30px;
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+  width: 100%;
+  background-color: #eeeeee;
+  align-items: center;
+}
+
+main > header > div > ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-right: 250px;
+}
+
+main > header > div > ul > li {
+  margin-left: 20px;
+  margin-right: 20px;
+  list-style: none;
+}
+
+main > header > div > ul > li > a {
+  text-decoration: none;
+  color: #666666;
+}
+
+main > header > div > ul > li > a > i {
+  margin-right: 5px;
+}
+
+main > header > div > select {
+  height: 35px;
+  border: none;
+  text-transform: capitalize;
+  margin-left: 250px;
+  appearance: none;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+main > header > div > select > option {
+}
+
+/* ----------------------------TOP_NAV_END----------------------------------- */
+
+/* <!-- ----------------------------nav-menu-start-------------------------------------> */
+main > header > nav {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 82px;
+  margin: auto;
+  width: 90%;
+}
+
+main > header > nav > img {
+  width: 15%;
+}
+
+main > header > nav > ul {
+  width: 58%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+main > header > nav > ul > li {
+  list-style: none;
+}
+
+main > header > nav > ul > li > a {
+  text-decoration: none;
+  color: #000000d9;
+}
+
+main > header > nav > div {
+  display: flex;
+  justify-content: space-between;
+  width: 27%;
+}
+
+main > header > nav > div > button {
+  padding: 20px 30px;
+}
+/* <!-- ----------------------------nav-menu-start-------------------------------------> */
