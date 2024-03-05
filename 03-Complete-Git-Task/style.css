@@ -74,7 +74,7 @@ main > header > nav {
   align-items: center;
   height: 82px;
   margin: auto;
-  width: 90%;
+  width: 95%;
   background-color: #ffffff;
 }
 
@@ -127,5 +127,55 @@ main > header > nav > div > span > button {
 /* <!-- ----------------------------nav-menu-start-------------------------------------> */
 
 /* <!-- ------------------------------hero section strated--------------------------------- --> */
+main > section {
+  margin-top: 112px;
+  display: flex;
+  /* align-items: center; */
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 160px;
+}
 
+main > section > .left {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 40%;
+}
+
+main > section > .left > .left-t {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 50px;
+}
+
+main > section > .left > .left-t > h1 {
+  font-size: 50px;
+}
+
+main > section > .left > .left-t > h1 > span {
+  color: #8dc63f;
+}
+
+main > section > .left > button {
+  display: flex;
+  align-items: center;
+  padding: 15px 40px;
+  margin-right: 250px;
+  color: #000000d9;
+  background-color: transparent;
+}
+
+main > section > .left > button > i {
+  color: #000000d9;
+}
+/* --------------------- */
+main > section > .right {
+  width: 60%;
+}
+
+main > section > .right > img {
+}
 /* <!-- --------------------------------------------hero section ended---------------------------------------- --> */
