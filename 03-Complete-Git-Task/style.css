@@ -11,6 +11,11 @@ main {
 /* ----------------------------TOP_NAV_START----------------------------------- */
 
 main > header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #fff;
+  border-bottom: 1px solid #eeeeee;
 }
 
 main > header > div {
@@ -99,7 +104,8 @@ main > header > nav > ul > li > a > span {
 main > header > nav > div {
   display: flex;
   justify-content: space-between;
-  width: 25.5%;
+  width: 26%;
+  gap: 10px;
 }
 
 main > header > nav > div > button {
@@ -111,10 +117,15 @@ main > header > nav > div > button {
 }
 
 main > header > nav > div > span > button {
-  padding: 20px 30px;
+  padding: 20px 33px;
   background-color: #8dc63f;
   border-radius: 5px;
   color: #ffffff;
   border: none;
 }
+
 /* <!-- ----------------------------nav-menu-start-------------------------------------> */
+
+/* <!-- ------------------------------hero section strated--------------------------------- --> */
+
+/* <!-- --------------------------------------------hero section ended---------------------------------------- --> */
