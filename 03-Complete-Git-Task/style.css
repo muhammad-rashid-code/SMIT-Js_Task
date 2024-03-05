@@ -39,6 +39,7 @@ main > header > div > ul > li {
 main > header > div > ul > li > a {
   text-decoration: none;
   color: #666666;
+  font-size: 14px;
 }
 
 main > header > div > ul > li > a > i {
@@ -69,6 +70,7 @@ main > header > nav {
   height: 82px;
   margin: auto;
   width: 90%;
+  background-color: #ffffff;
 }
 
 main > header > nav > img {
@@ -90,13 +92,29 @@ main > header > nav > ul > li > a {
   color: #000000d9;
 }
 
+main > header > nav > ul > li > a > span {
+  color: #0d5d87;
+}
+
 main > header > nav > div {
   display: flex;
   justify-content: space-between;
-  width: 27%;
+  width: 25.5%;
 }
 
 main > header > nav > div > button {
   padding: 20px 30px;
+  background-color: #0d5d87;
+  border-radius: 5px;
+  color: #ffffff;
+  border: none;
+}
+
+main > header > nav > div > span > button {
+  padding: 20px 30px;
+  background-color: #8dc63f;
+  border-radius: 5px;
+  color: #ffffff;
+  border: none;
 }
 /* <!-- ----------------------------nav-menu-start-------------------------------------> */
