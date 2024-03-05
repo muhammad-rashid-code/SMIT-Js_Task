@@ -166,6 +166,8 @@ main > section > .left > button {
   margin-right: 250px;
   color: #000000d9;
   background-color: transparent;
+  border-radius: 5px;
+  justify-content: space-between;
 }
 
 main > section > .left > button > i {
