@@ -74,7 +74,7 @@ main > header > nav {
   align-items: center;
   height: 82px;
   margin: auto;
-  width: 95%;
+  width: 80%;
   background-color: #ffffff;
 }
 
@@ -181,3 +181,85 @@ main > section > .right {
 main > section > .right > img {
 }
 /* <!-- --------------------------------------------hero section ended---------------------------------------- --> */
+
+/* <!-- ------------------------------------------- Second Section Start------------------------------------------------ --> */
+main > .second {
+}
+
+main > .second > .s1 {
+}
+
+main > .second > .s1 > .heading {
+}
+
+main > .second > .s1 > .heading > .hea {
+}
+
+main > .second > .s1 > .heading > .hea > h1 {
+  font-size: 40px;
+  text-align: center;
+}
+/* -------------------------------------- */
+
+main > .second > .s1 {
+}
+
+main > .second > .s1 > .row {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 12px;
+}
+
+main > .second > .s1 > .row > .rowin {
+  background-color: #b6ef4933;
+  width: 166px;
+  height: 152px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  border: none;
+  border-radius: 10px;
+}
+
+main > .second > .s1 > .row > .rowin > .sec1 > img {
+}
+
+main > .second > .s1 > .row > .rowin > .sec1 > .img-ri {
+  padding-left: 30px;
+}
+
+main > .second > .s1 > .row > .rowin > .sec1 > h5 {
+  padding-left: 12px;
+}
+/* ------------------------------------------ */
+main > .second > .s1 > .homehelp {
+}
+
+main > .second > .s1 > .homehelp > .sec1a {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #00000099;
+  width: 250px;
+  height: 300px;
+  color: #ffffff;
+}
+
+main > .second > .s1 > .homehelp > .sec1a > img {
+  width: 250px;
+}
+
+main > .second > .s1 > .homehelp > .sec1a > h5 {
+  margin-left: -67px;
+}
+
+main > .second > .s1 > .homehelp > .sec1a > button {
+  color: #ffffff;
+  background-color: #8dc63f;
+  border: none;
+  width: 90%;
+  margin: auto;
+}
+/* <!-- ------------------------------------------- Second Section End------------------------------------------------ --> */
