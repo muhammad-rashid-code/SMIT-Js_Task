@@ -184,6 +184,7 @@ main > section > .right > img {
 
 /* <!-- ------------------------------------------- Second Section Start------------------------------------------------ --> */
 main > .second {
+  margin-top: 20px;
 }
 
 main > .second > .s1 {
@@ -234,32 +235,108 @@ main > .second > .s1 > .row > .rowin > .sec1 > h5 {
 }
 /* ------------------------------------------ */
 main > .second > .s1 > .homehelp {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+  gap: 4px;
 }
 
 main > .second > .s1 > .homehelp > .sec1a {
+  background-color: #00000099;
+  color: #ffffff;
+  background-image: url(./img/sec1a.jpg);
+  height: 300px;
+  width: 350px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #00000099;
-  width: 250px;
-  height: 300px;
-  color: #ffffff;
+  justify-content: flex-end;
+  gap: 4px;
+  border-radius: 9px;
+  border: none;
 }
 
 main > .second > .s1 > .homehelp > .sec1a > img {
-  width: 250px;
 }
 
 main > .second > .s1 > .homehelp > .sec1a > h5 {
-  margin-left: -67px;
+  margin-left: 5px;
+  font-size: 19px;
 }
 
 main > .second > .s1 > .homehelp > .sec1a > button {
   color: #ffffff;
   background-color: #8dc63f;
   border: none;
-  width: 90%;
-  margin: auto;
+  width: 95%;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 5px;
 }
+
+/* ------------------------2--------------------------------- */
+main > .second > .s1 > .homehelp > .sec2a {
+  background-color: #00000099;
+  color: #ffffff;
+  background-image: url(./img/sec2a.jpg);
+  height: 300px;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 4px;
+  border-radius: 9px;
+  border: none;
+}
+
+main > .second > .s1 > .homehelp > .sec2a > img {
+}
+
+main > .second > .s1 > .homehelp > .sec2a > h5 {
+  margin-left: 5px;
+  font-size: 19px;
+}
+
+main > .second > .s1 > .homehelp > .sec2a > button {
+  color: #ffffff;
+  background-color: #8dc63f;
+  border: none;
+  width: 95%;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* ----------------------------------3------------------------------------------------- */
+main > .second > .s1 > .homehelp > .sec3a {
+  background-color: #00000099;
+  color: #ffffff;
+  background-image: url(./img/sec3a.jpg);
+  height: 300px;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 4px;
+  border-radius: 9px;
+  border: none;
+}
+
+main > .second > .s1 > .homehelp > .sec3a > img {
+}
+
+main > .second > .s1 > .homehelp > .sec3a > h5 {
+  margin-left: 5px;
+  font-size: 19px;
+}
+
+main > .second > .s1 > .homehelp > .sec3a > button {
+  color: #ffffff;
+  background-color: #8dc63f;
+  border: none;
+  width: 95%;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 5px;
+}
+
 /* <!-- ------------------------------------------- Second Section End------------------------------------------------ --> */
