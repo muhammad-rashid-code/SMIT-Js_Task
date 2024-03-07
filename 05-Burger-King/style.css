@@ -1,0 +1,134 @@
+* {
+  padding: 0px;
+  margin: 0;
+  box-sizing: border-box;
+
+  font-family: sans-serif;
+  font-weight: 800;
+}
+
+/* --------------------------------header-started---------------------------------- */
+main {
+}
+
+main > header {
+  background-color: #f8ebdc;
+  height: 60px;
+  border-bottom: 1px solid #dcd4d4;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+main > header > nav {
+  display: flex;
+  justify-content: space-between;
+  width: 85%;
+  margin: auto;
+  align-items: center;
+}
+
+main > header > nav > a {
+}
+
+main > header > nav > a > i {
+  color: #58200f;
+}
+
+main > header > nav > img {
+  width: 50px;
+  margin-left: 100px;
+  margin-top: 7px;
+}
+
+/* ------------------------------------------------ */
+
+main > header > nav > div {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin-top: 7px;
+}
+
+main > header > nav > div > button {
+  padding: 8px 12px;
+  border-radius: 15px;
+  color: #ffffff;
+  background-color: transparent;
+  border: none;
+}
+
+main > header > nav > div > .price {
+  background-color: #58200f;
+}
+
+main > header > nav > div > .sign-in {
+  background-color: #ee0000;
+}
+
+main > header > nav > div > button > i {
+}
+/* --------------------------------header-ende------------------------------------- */
+/* -----------------------------------section 1 started -------------------------------------- */
+main > .sec-1 {
+  margin-top: 60px;
+  background-color: #f8ebdc;
+  height: 400px;
+  width: 100%;
+}
+
+main > .sec-1 > .sec-main {
+  display: flex;
+  justify-content: space-between;
+  width: 85%;
+  margin: auto;
+  align-items: center;
+}
+
+main > .sec-1 > .sec-main > .sec-1-l {
+  width: 30%;
+}
+
+main > .sec-1 > .sec-main > .sec-1-l > h1 {
+  color: #58200f;
+  font-size: 55px;
+}
+
+main > .sec-1 > .sec-main > .sec-1-l > .s-l-btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 150px;
+  font-size: 25px;
+}
+
+main > .sec-1 > .sec-main > .sec-1-l > .s-l-btn > .s1-op {
+  background-color: #ee0000;
+  color: #ffffff;
+  border: none;
+  padding: 20px 70px;
+  border-radius: 30px;
+}
+
+main > .sec-1 > .sec-main > .sec-1-l > .s-l-btn > .s1-od {
+  color: #ee0000;
+  border: 1px solid #ee0000;
+  background-color: transparent;
+  padding: 20px 60px;
+  border-radius: 30px;
+}
+/* ----------------------------------------------------------- */
+main > .sec-1 > .sec-main > .sec-1-r {
+  width: 70%;
+}
+main > .sec-1 > .sec-main > .sec-1-r > h6 {
+  color: #58200f;
+}
+main > .sec-1 > .sec-main > .sec-1-r > img {
+  height: 380px;
+}
+/* -----------------------------------section 1 ended -------------------------------------- */
+
+/* <!-- -----------------------------------section 2 started -------------------------------------- --> */
+/* <!-- -----------------------------------section 2 ended -------------------------------------- --> */
