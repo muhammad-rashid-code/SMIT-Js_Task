@@ -131,4 +131,68 @@ main > .sec-1 > .sec-main > .sec-1-r > img {
 /* -----------------------------------section 1 ended -------------------------------------- */
 
 /* <!-- -----------------------------------section 2 started -------------------------------------- --> */
+main > .sec-2 {
+  background-color: #f8ebdc;
+  /* width: 90%; */
+}
+
+.sec-2 > .sec-2main {
+  width: 85%;
+  margin: 0 auto;
+  background-color: #f8ebdc;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.sec-2 > .sec-2main > .sec-2-c-1 {
+  /* border: 1px solid black; */
+  border-radius: 10px;
+  width: 40vw;
+  background-color: #f8ebdc;
+  padding: 10px;
+}
+
+.sec-2 > .sec-2main > .sec-2-c-1 > img {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  width: 40vw;
+}
+
+.sec-2 > .sec-2main > .sec-2-c-1 > .dtl {
+  background-color: #ffffff;
+  width: 40vw;
+  margin-top: 0px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  padding: 10px;
+}
+
+.sec-2 > .sec-2main > .sec-2-c-1 > .dtl > h1 {
+  color: #58200f;
+}
+
+.sec-2 > .sec-2main > .sec-2-c-1 > .dtl > p {
+  color: #58200f;
+  font-size: 10px;
+}
+
+.sec-2 > .sec-2main > .sec-2-c-1 > .dtl > a {
+  color: #58200f;
+}
+
+.sec-2 > .sec-2main > .sec-2-c-1 > .dtl > .btn {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.sec-2 > .sec-2main > .sec-2-c-1 > .dtl > .btn > button {
+  background-color: transparent;
+  border: 1px solid #f35353;
+  color: #f35353;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
 /* <!-- -----------------------------------section 2 ended -------------------------------------- --> */
