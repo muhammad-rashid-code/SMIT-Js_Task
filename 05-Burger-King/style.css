@@ -164,10 +164,10 @@ main > .sec-2 {
 .sec-2 > .sec-2main > .sec-2-c-1 > .dtl {
   background-color: #ffffff;
   width: 40vw;
-  margin-top: 0px;
+  margin-top: -5px;
   border-bottom-right-radius: 20px;
   border-bottom-left-radius: 20px;
-  padding: 10px;
+  padding: 40px;
 }
 
 .sec-2 > .sec-2main > .sec-2-c-1 > .dtl > h1 {
@@ -190,9 +190,184 @@ main > .sec-2 {
 
 .sec-2 > .sec-2main > .sec-2-c-1 > .dtl > .btn > button {
   background-color: transparent;
-  border: 1px solid #f35353;
-  color: #f35353;
+  border: 1px solid #ee0000;
+  color: #ee0000;
+  padding-top: 15px;
   padding: 10px 20px;
   border-radius: 20px;
 }
 /* <!-- -----------------------------------section 2 ended -------------------------------------- --> */
+
+/* <!-- --------------------------------------------section 3 start------------------------------------------------- --> */
+main > .sec-3 {
+  background-color: #eee2d3;
+}
+
+main > .sec-3 > .sec3 {
+  width: 85%;
+  margin: auto;
+  display: flex;
+}
+
+main > .sec-3 > .sec3 > .se-left {
+}
+
+main > .sec-3 > .sec3 > .se-left > img {
+  width: 500px;
+}
+
+main > .sec-3 > .sec3 > .se-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+
+main > .sec-3 > .sec3 > .se-right > .de {
+}
+
+main > .sec-3 > .sec3 > .se-right > .de > h1 {
+  color: #58200f;
+  font-size: 50px;
+}
+
+main > .sec-3 > .sec3 > .se-right > h1 {
+}
+
+main > .sec-3 > .sec3 > .se-right > .icon {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  width: 450px;
+  margin-left: -20px;
+}
+
+main > .sec-3 > .sec3 > .se-right > .icon > .app {
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  background-color: #000000;
+  padding: 0px 29px;
+  border-radius: 8px;
+  border: none;
+}
+
+main > .sec-3 > .sec3 > .se-right > .icon > .app > .fa-apple {
+}
+
+main > .sec-3 > .sec3 > .se-right > .icon > .app > .appl {
+}
+
+main > .sec-3 > .sec3 > .se-right > .icon > .app > .appl > h6 {
+}
+
+main > .sec-3 > .sec3 > .se-right > .icon > .app > .appl > h1 {
+}
+
+main > .sec-3 > .sec3 > .se-right > .icon > .goog {
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  background-color: #000000;
+  padding: 0px 18px;
+  border-radius: 8px;
+  border: none;
+}
+
+main > .sec-3 > .sec3 > .se-right > .icon > .goog > .fa-google-play {
+}
+
+main > .sec-3 > .sec3 > .se-right > .goog > .googl {
+}
+
+main > .sec-3 > .sec3 > .se-right > .goog > .googl > h6 {
+}
+
+main > .sec-3 > .sec3 > .se-right > .goog > .googl > h1 {
+}
+
+main > .sec-3 > .sec3 > .se-right > .des {
+}
+
+main > .sec-3 > .sec3 > .se-right > .des > p {
+  color: #58200f;
+  font-weight: normal;
+  font-size: 12px;
+}
+/* <!-- --------------------------------------------section 3 End------------------------------------------------- --> */
+/* <!-- -------------------------------------------disclaimer started--------------------------------------------------------------- --> */
+.disclaimer {
+  background-color: #58200f;
+  width: 100%;
+}
+.disclaimer > .dis {
+  height: 50px;
+  color: #ffffff;
+  font-size: 12px;
+  display: flex;
+  width: 59%;
+  margin: auto;
+  align-items: center;
+  /* margin-left: 201px; */
+}
+.disclaimer > .dis > p {
+}
+
+.disclaimer > .dis > a {
+  color: #ffffff;
+}
+/* <!-- -------------------------------------------disclaimer ended--------------------------------------------------------------- --> */
+
+/* <!-- -----------------------------------------footer started---------------------------------------------------------------------- --> */
+footer {
+  background-color: #f8ebdc;
+  height: 50px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  font-weight: normal;
+}
+
+footer > .foter {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+  height: 100%;
+  align-items: center;
+}
+
+footer > .foter > a {
+  color: #58200f;
+  text-decoration: none;
+}
+footer > .foter > .a1 {
+  color: #ee0000;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+}
+footer > .foter > .a1 > .fa-house {
+}
+footer > .foter > .a2 {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+}
+footer > .foter > .a2 > .fa-burger {
+}
+footer > .foter > .a3 {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+}
+footer > .foter > .a3 > .fa-crown {
+}
+footer > .foter > .a4 {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+}
+footer > .foter > .a4 > .fa-medal {
+}
+/* <!-- -----------------------------------------footer ended---------------------------------------------------------------------- --> */
