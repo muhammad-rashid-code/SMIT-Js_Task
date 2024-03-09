@@ -1,4 +1,4 @@
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 550px) {
   * {
     padding: 0px;
     margin: 0;
@@ -16,6 +16,7 @@
     flex-direction: column;
     justify-content: space-between;
     gap: 15px;
+    align-items: stretch;
   }
   main > header {
     height: 60px;
@@ -264,7 +265,13 @@
   .sec-3 > .sec3 > .se-right > .icon > .goog > .fa-google-play {
   }
 
-  .sec-3 > .sec3 > .se-right > .icon > .goog > .googl {
+  .sec-3 > .sec3 > .se-right > .icon > .goog > .googl { display: flex;
+  align-items: center;
+  color: #ffffff;
+  background-color: #000000;
+  padding: 0px 18px;
+  border-radius: 8px;
+  border: none;
   }
 
   .sec-3 > .sec3 > .se-right > .icon > .goog > .googl > h6 {

@@ -1,0 +1,389 @@
+* {
+  padding: 0vw;
+  margin: 0vw;
+  box-sizing: border-box;
+  font-family: monospace;
+}
+
+body {
+}
+
+main {
+  background-color: #f7ebdc;
+  color: #58200f;
+}
+
+main > header {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 9vh;
+  background-color: #f7ebdc;
+}
+
+main > header > nav {
+  display: flex;
+  justify-content: space-between;
+  width: 95vw;
+  margin: 0vw auto;
+  align-items: center;
+  height: 100%;
+}
+
+main > header > nav > h1 {
+  width: 33.3vw;
+  font-size: 1.5vw;
+}
+
+main > header > nav > h1 > a {
+  color: #58200f;
+}
+
+main > header > nav > h1 > a > i {
+}
+
+main > header > nav > .logo {
+  width: 33.3vw;
+
+  display: flex;
+  justify-content: center;
+}
+
+main > header > nav > .logo > img {
+}
+
+main > header > nav > .h-btn {
+  width: 33.3vw;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  padding: 1vh 0vw;
+}
+
+main > header > nav > .h-btn > .btn-sign {
+  padding: 1.75vh 1.5vw;
+  border: none;
+  background-color: #d62300;
+  color: #ffffff;
+  border-radius: 18px;
+  font-size: 1vw;
+  font-weight: bolder;
+}
+
+main > header > nav > .h-btn > .btn-pri {
+  border: none;
+  padding: 1.75vh 1.5vw;
+  background-color: #502314;
+  color: #ffffff;
+  border-radius: 18px;
+  font-size: 1vw;
+  font-weight: bolder;
+}
+
+main > header > nav > .h-btn > .btn-pri > i {
+}
+
+@media screen and (max-width: 550px) {
+  main > header {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 15vh;
+    background-color: #f7ebdc;
+  }
+
+  main > header > nav {
+    display: flex;
+    justify-content: space-between;
+    width: 95vw;
+    margin: 0vw auto;
+    align-items: center;
+    height: 100%;
+  }
+
+  main > header > nav > h1 {
+    width: 33.3vw;
+    font-size: 5vw;
+  }
+
+  main > header > nav > h1 > a {
+    color: #58200f;
+  }
+
+  main > header > nav > h1 > a > i {
+  }
+
+  main > header > nav > .logo {
+    width: 33.3vw;
+
+    display: flex;
+    justify-content: center;
+  }
+
+  main > header > nav > .logo > img {
+  }
+
+  main > header > nav > .h-btn {
+    width: 33.3vw;
+    display: flex;
+    justify-content: center;
+    padding: 1vh 0vw;
+  }
+
+  main > header > nav > .h-btn > .btn-sign {
+    padding: 0.5vh 10.5 vw;
+    border: none;
+    background-color: #d62300;
+    color: #ffffff;
+    border-radius: 18px;
+    font-size: 3vw;
+    font-weight: bolder;
+  }
+
+  main > header > nav > .h-btn > .btn-pri {
+    border: none;
+    padding: 1vh 1.5vw;
+    background-color: #502314;
+    color: #ffffff;
+    border-radius: 18px;
+    display: none;
+  }
+}
+/* <!-- ----------------------------------------------section-1-started-------------------------------------------------------------- --> */
+.sec-1 {
+  margin-top: 9vh;
+}
+
+.sec-1 > .m-sec-1 {
+  display: flex;
+  justify-content: space-between;
+  width: 95vw;
+  margin: 0 auto;
+}
+
+.sec-1 > .m-sec-1 > .sec-1-L {
+  width: 35vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.sec-1 > .m-sec-1 > .sec-1-L > h1 {
+  font-size: 5vw;
+}
+
+.sec-1 > .m-sec-1 > .sec-1-L > .btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 10px;
+  margin-left: -180px;
+  padding: 6vh 12vw;
+}
+
+.sec-1 > .m-sec-1 > .sec-1-L > .btn > .op {
+  border: none;
+  width: 4vh 10vw;
+  background-color: #d62300;
+  padding: 2vh 6vw;
+  color: #ffffff;
+  font-weight: bolder;
+  border-radius: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+.sec-1 > .m-sec-1 > .sec-1-L > .btn > .op > .fa-basket-shopping {
+}
+
+.sec-1 > .m-sec-1 > .sec-1-L > .btn > .od {
+  border: none;
+  width: 5vh 10vw;
+  background-color: transparent;
+  border: 1px solid #d62300;
+  padding: 2vh 6vw;
+  color: #d62300;
+  font-weight: bolder;
+  border-radius: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+.sec-1 > .m-sec-1 > .sec-1-L > .btn > .od > .fa-motorcycle {
+}
+
+.sec-1 > .m-sec-1 > .sec-1-R {
+  width: 65vw;
+  align-items: center;
+}
+
+.sec-1 > .m-sec-1 > .sec-1-R > h6 {
+  display: none;
+}
+
+.sec-1 > .m-sec-1 > .sec-1-R > .img {
+}
+
+.sec-1 > .m-sec-1 > .sec-1-R > .img > .web {
+  width: 50vw;
+}
+
+.sec-1 > .m-sec-1 > .sec-1-R > .img > .mob {
+  display: none;
+}
+
+@media screen and (max-width: 550px) {
+  .sec-1 {
+    margin-top: 15vh;
+  }
+
+  .sec-1 > .m-sec-1 {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    width: 95vw;
+    margin: 0 auto;
+  }
+
+  .sec-1 > .m-sec-1 > .sec-1-L {
+    width: 35vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .sec-1 > .m-sec-1 > .sec-1-L > h1 {
+    display: none;
+  }
+
+  .sec-1 > .m-sec-1 > .sec-1-L > .btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    margin-left: 200px;
+    /* padding: 2vh 12vw; */
+  }
+
+  .sec-1 > .m-sec-1 > .sec-1-L > .btn > .op {
+    border: none;
+    background-color: #d62300;
+    padding: 3vh 35vw;
+    color: #ffffff;
+    font-weight: bolder;
+    border-radius: 20px;
+    display: flex;
+    gap: 10px;
+  }
+
+  .sec-1 > .m-sec-1 > .sec-1-L > .btn > .op > .fa-basket-shopping {
+  }
+
+  .sec-1 > .m-sec-1 > .sec-1-L > .btn > .od {
+    border: none;
+    background-color: transparent;
+    border: 1px solid #d62300;
+    padding: 3vh 35vw;
+    color: #d62300;
+    font-weight: bolder;
+    border-radius: 20px;
+    display: flex;
+    gap: 10px;
+  }
+
+  .sec-1 > .m-sec-1 > .sec-1-L > .btn > .od > .fa-motorcycle {
+  }
+
+  .sec-1 > .m-sec-1 > .sec-1-R {
+    width: 65vw;
+    align-items: center;
+  }
+
+  .sec-1 > .m-sec-1 > .sec-1-R > h6 {
+    font-size: 5vw;
+    text-align: center;
+  }
+
+  .sec-1 > .m-sec-1 > .sec-1-R > .img {
+  }
+
+  .sec-1 > .m-sec-1 > .sec-1-R > .img > .web {
+    display: none;
+  }
+
+  .sec-1 > .m-sec-1 > .sec-1-R > .img > .mob {
+    width: 90vw;
+  }
+}
+/* .sec-1 {
+    margin-top: 15vh;
+    width: 100vw;
+  }
+
+  .sec-1 > .m-sec-1 {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .sec-1 > .m-sec-1 > .sec-1-L {
+  }
+
+  .sec-1 > .m-sec-1 > .sec-1-L > h1 {
+    display: none;
+  }
+
+  .sec-1 > .m-sec-1 > .sec-1-L > .btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .sec-1 > .m-sec-1 > .sec-1-L > .btn > .op {
+    border: none;
+    color: #ffffff;
+    background-color: #d62300;
+    padding: 2vh 32vw;
+    border-radius: 20px;
+    font-weight: bolder;
+  }
+
+  .sec-1 > .m-sec-1 > .sec-1-L > .btn > .op > .fa-basket-shopping {
+  }
+
+  .sec-1 > .m-sec-1 > .sec-1-L > .btn > .od {
+    border: none;
+    color: #d62300;
+    background-color: transparent;
+    border: 1px solid #d62300;
+    padding: 2vh 30vw;
+    border-radius: 20px;
+    font-weight: bolder;
+  }
+
+  .sec-1 > .m-sec-1 > .sec-1-L > .btn > .od > .fa-motorcycle {
+  }
+
+  .sec-1 > .m-sec-1 > .sec-1-R {
+  }
+
+  .sec-1 > .m-sec-1 > .sec-1-R > h6 {
+    font-size: 8vw;
+    text-align: center;
+    font-weight: bolder;
+  }
+
+  .sec-1 > .m-sec-1 > .sec-1-R > .img {
+  }
+
+  .sec-1 > .m-sec-1 > .sec-1-R > .img > .web {
+    display: none;
+  }
+
+  .sec-1 > .m-sec-1 > .sec-1-R > .img > .mob {
+    width: 90vw;
+  } */
+
+/* <!-- ___________________________________________________section-1-started________________________________________________________________ --> */
