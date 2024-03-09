@@ -9,6 +9,7 @@
 
 /* --------------------------------header-started---------------------------------- */
 main {
+  width: 100%;
 }
 
 main > header {
@@ -214,6 +215,12 @@ main > .sec-3 > .sec3 > .se-left {
 
 main > .sec-3 > .sec3 > .se-left > img {
   width: 500px;
+}
+
+.sec-3 > .sec3 > .se-left > .web {
+}
+.sec-3 > .sec3 > .se-left > .mob {
+  display: none;
 }
 
 main > .sec-3 > .sec3 > .se-right {

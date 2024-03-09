@@ -1,0 +1,267 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: poppins;
+}
+@font-face {
+  font-family: poppins;
+  src: url(font/Poppins-Regular.otf);
+}
+.top-bar {
+  display: flex;
+  justify-content: space-around;
+  background-color: #eeeeee;
+  align-items: center;
+  height: 30px;
+  font-size: 12px;
+  font-weight: 800;
+}
+.top-bar a {
+  text-decoration: none;
+  color: #666666;
+}
+.contact {
+  display: flex;
+  gap: 14px;
+  color: #666666;
+  align-items: center;
+  padding-right: 301px;
+}
+.contact i {
+  font-size: 15px;
+}
+.dropbtn {
+  background-color: white;
+  padding: 12px;
+  font-size: 15px;
+  border: none;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  display: none;
+  z-index: 1;
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown:hover .dropbtn {
+  background-color: #ffffff;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 6px;
+  border-bottom: 2px solid lightgray;
+  height: 75px;
+}
+.navbar img {
+  width: 200px;
+  height: 55px;
+  padding-left: 290px;
+}
+.navbar-content ul {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 30px;
+  list-style: none;
+  padding-left: 75px;
+}
+.navbar-content a {
+  font-size: 14px;
+  color: #666666;
+  text-decoration: none;
+}
+.navbar-btn {
+  padding-right: 311px;
+}
+.navbar-btn button {
+  font-size: 12px;
+  width: 141px;
+  height: 40px;
+  border-radius: 6px;
+}
+.navbar-btn .left {
+  color: white;
+  background-color: #0d6db7;
+  border: 1px solid #0d6db7;
+}
+.navbar-btn .right {
+  color: white;
+  background-color: #8dc63f;
+  border: 1px solid #0d6db7;
+}
+.navbar-content a:hover {
+  text-decoration: underline #8dc63f;
+}
+.navbar-btn button:hover {
+  cursor: pointer;
+}
+.navbar-btn .left:hover {
+  background-color: #3484c2;
+}
+.navbar-btn .right:hover {
+  background-color: #a8ca79;
+}
+.cover {
+  /* border: 2px solid red; */
+  width: 69%;
+  display: flex;
+  justify-content: space-between;
+  margin: 22px auto;
+}
+.cover img {
+  width: 526px;
+  height: 525px;
+  padding-right: 67px;
+}
+.cover .green {
+  color: #8dc63f;
+}
+.cover .blue {
+  color: #0d6db7;
+}
+.cover-content {
+  padding-top: 100px;
+}
+.cover-content h1 {
+  font-size: 37px;
+}
+.cover-content p {
+  color: #6e6e6e;
+}
+.cover button {
+  width: 193px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: white;
+  border: 1px solid;
+  color: #666666;
+  font-size: 12px;
+}
+.cover i {
+  padding-left: 10px;
+}
+.cover button:hover {
+  cursor: pointer;
+  background-color: #dad5d5;
+  color: white;
+}
+.web-body {
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.web-body div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 22px;
+  font-weight: bold;
+}
+.web-body h1 {
+  font-size: 30px;
+}
+.web-body .f {
+  background-color: #f0fcdb;
+  width: 198px;
+  height: 160px;
+  border-radius: 10px;
+  transition: 0.2s;
+}
+.web-body .f:hover {
+  transform: scale(1.08);
+  z-index: 2;
+  background-color: #f4fde6;
+}
+.fund-box div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  padding-top: 15px;
+}
+.fund-box img {
+  width: 416px;
+  height: 300px;
+  border-radius: 10px;
+  filter: brightness(50%);
+}
+.fund-box .fund-img {
+  transition: 0.2s;
+}
+.fund-box .fund-img:hover {
+  transform: scale(1.04);
+  z-index: 2;
+}
+.fund-box img:hover {
+  filter: brightness(60%);
+}
+.fund-box button {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  border-radius: 5px;
+  right: 108px;
+  bottom: 68px;
+  width: 398px;
+  height: 40px;
+  background-color: #8dc63f;
+  border: none;
+  color: white;
+  z-index: 3;
+}
+.fund-box h4 {
+  z-index: 3;
+  color: white;
+}
+.fund-one {
+  position: relative;
+  left: 67px;
+  bottom: 10px;
+}
+.fund-two {
+  position: relative;
+  right: 22px;
+  bottom: 10px;
+}
+.fund-three {
+  position: relative;
+  right: 74px;
+  bottom: 10px;
+}
+.fund-one h4 {
+  position: relative;
+  left: 147px;
+  bottom: 101px;
+}
+.fund-two h4 {
+  position: relative;
+  left: 6px;
+  bottom: 101px;
+}
+.fund-three h4 {
+  position: relative;
+  right: 33px;
+  bottom: 101px;
+}
