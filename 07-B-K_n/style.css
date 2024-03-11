@@ -243,6 +243,7 @@ main > header > nav > .button > .op > .shopping {
 .sec-2 {
   color: #502314;
   margin-top: 15vh;
+  margin-bottom: 9vh;
 }
 
 .sec-2 > .section-2 {
@@ -350,7 +351,12 @@ main > header > nav > .button > .op > .shopping {
 /* <!-- ++++++++++++++++++++++++++++++++++++++++++footer++++++++++++++++++++++++++++++++++++++++++ --> */
 footer {
   font-size: 12px;
-  border-top: #acaba9;
+  border-top: 1px solid #d2c7ba;
+  height: 9vh;
+  background-color: #f7ebdc;
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
 }
 
 footer > .foot {
@@ -359,9 +365,8 @@ footer > .foot {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 9vh;
-
-  margin-top: 15vh;
+  background-color: #f7ebdc;
+  height: 100%;
 }
 
 footer > .foot > .home {
@@ -375,6 +380,12 @@ footer > .foot > .home {
 footer > .foot > .home > .fa-house {
   font-size: 1.5vw;
   color: #d62300;
+}
+
+@media screen and (max-width: 550px) {
+  footer > .foot > .home > .fa-house {
+    font-size: 3.5vw;
+  }
 }
 
 footer > .foot > .menu {
@@ -412,8 +423,12 @@ footer > .foot > .rew {
 footer > .foot > .rew > img {
   width: 1.75vw;
 }
+
+@media screen and (max-width: 550px) {
+  footer > .foot > .rew > img,
+  footer > .foot > .off > img,
+  footer > .foot > .menu > img {
+    width: 3.5vw;
+  }
+}
 /* <!-- ----------------------------------------------footer------------------------------------------------- --> */
-
-
-
-
