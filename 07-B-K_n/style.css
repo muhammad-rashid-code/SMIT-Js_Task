@@ -212,7 +212,7 @@ main > header > nav > .button > .op > .shopping {
     background-color: #d62300;
     padding: 3vh 32vw;
     border-radius: 20px;
-    font-size: 4.5vw;
+    font-size: 4vw;
   }
 
   .sec-1 > .section-1 > .L > .btn > .od {
@@ -223,7 +223,7 @@ main > header > nav > .button > .op > .shopping {
     background-color: transparent;
     padding: 3vh 32vw;
     border-radius: 20px;
-    font-size: 4vw;
+    font-size: 3.5vw;
   }
 }
 .sec-1 > .section-1 > .web-img {
