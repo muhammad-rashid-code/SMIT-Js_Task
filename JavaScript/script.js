@@ -561,7 +561,31 @@
 // // Call the function to generate the dropdown
 // generateDropdown();
 
-let empty = [];
-console.log(empty);
+// let empty = [];
+// console.log(empty);
 
+// let edu = ["SSC", "HSC", "BCS", "BCOM", "MS", "M.Phil.", "phD"];
+
+// document.write("<h1>Qualifications</h1>");
+// let edu = ["SSC", "HSC", "BCS", "BCOM", "MS", "M.Phil.", "phD"];
+
+// let index = 0;
+// document.write("<ol>");
+// document.write("<li>" + edu[index++] + "</li>" + "</br>");
+// document.write("<li>" + edu[index++] + "</li>" + "</br>");
+// document.write("<li>" + edu[index++] + "</li>" + "</br>");
+// document.write("<li>" + edu[index++] + "</li>" + "</br>");
+// document.write("<li>" + edu[index++] + "</li>" + "</br>");
+// document.write("<li>" + edu[index++] + "</li>" + "</br>");
+// document.write("<li>" + edu[index++] + "</li>" + "</br>");
+// document.write("<li>" + edu[index++] + "</li>" + "</br>");
+
+// let empty = [];
+// console.log(empty);
+
+// let students = [];
+// console.log(students);
+
+// let name = ["Banana", "orange", "apple"];
+// console.log(name);
 
