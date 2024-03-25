@@ -355,6 +355,12 @@ header > nav > .t-nav-l > .t-nav > .drop-d > #lang > option {
   }
 }
 
+@media screen and (max-width: 425px) {
+  .hero > .hero-item > .l > .btn > a {
+    font-size: 3.75vw;
+  }
+}
+
 .hero > .hero-item > .l > .btn > .fa-arrow-right-long {
   color: #666666;
   margin-top: 0.5vh;
