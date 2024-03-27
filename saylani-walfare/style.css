@@ -18,7 +18,7 @@ header {
 
 @media screen and (max-width: 768px) {
   header {
-    height: 24vh;
+    height: 22vh;
   }
 }
 
@@ -101,6 +101,25 @@ header > nav > .t-nav-l > .t-nav > ol > li {
 header > nav > .t-nav-l > .t-nav > ol > li > a {
   text-decoration: none;
   color: #666666;
+  font-size: 1vw;
+}
+
+@media screen and (max-width: 768px) {
+  header > nav > .t-nav-l > .t-nav > ol > li > a {
+    font-size: 1.64vw;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  header > nav > .t-nav-l > .t-nav > ol > li > a {
+    font-size: 3vw;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  header > nav > .t-nav-l > .t-nav > ol > li > a {
+    font-size: 5vw;
+  }
 }
 /* ------------- */
 header > nav > .t-nav-l > .t-nav > ol > li > a > svg {
@@ -226,6 +245,7 @@ header > nav > .t-nav-l > .t-nav > .drop-d > #lang > option {
   padding: 1.5vh 2.5vw;
   text-align: center;
   border-radius: 0.3vw;
+  border: none;
 }
 
 .b-nav > .b-nav-item > .b-s {
@@ -234,6 +254,7 @@ header > nav > .t-nav-l > .t-nav > .drop-d > #lang > option {
   padding: 1.5vh 2.35vw;
   text-align: center;
   border-radius: 0.3vw;
+  border: 1px solid #006fb7;
 }
 
 .b-nav > .b-nav-item > .br {
@@ -245,7 +266,7 @@ header > nav > .t-nav-l > .t-nav > .drop-d > #lang > option {
     display: block;
   }
   .b-nav > .b-nav-item > .br > img {
-    width: 10vw;
+    width: 7vw;
     border: 1px solid #666666;
   }
 }
@@ -334,6 +355,26 @@ header > nav > .t-nav-l > .t-nav > .drop-d > #lang > option {
   /* align-content: center; */
   justify-content: center;
   padding: 2.5vh 1vw;
+  width: 15vw;
+  border-radius: 0.3vw;
+}
+
+@media screen and (max-width: 768px) {
+  .hero > .hero-item > .l > .btn {
+    width: 18vw;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .hero > .hero-item > .l > .btn {
+    width: 35vw;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .hero > .hero-item > .l > .btn {
+    width: 40vw;
+  }
 }
 
 .hero > .hero-item > .l > .btn > a {
